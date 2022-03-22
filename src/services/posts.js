@@ -1,21 +1,23 @@
- const postsList = [
+//const faker = require ('faker');
+
+const postsList = [
     {
-        avatar: 'img',
+        avatar: 'https://i.pravatar.cc/300',
         name: 'Santi',
         datePost: new Date().toLocaleString(),
-        post: `Nice description by s`
+        postDes: `Nice description by s`
     },
     {
-        avatar: 'img',
+        avatar: 'https://i.pravatar.cc/300',
         name: 'Ignacio',
         datePost: new Date().toLocaleString(),
-        post: `Nice description by i`
+        postDes: `Nice description by i`
     },
     {
-        avatar: 'img',
+        avatar: 'https://i.pravatar.cc/300',
         name: 'Kim',
         datePost: new Date().toLocaleString(),
-        post: `Nice description by k`
+        postDes: `Nice description by k`
     }
 ]; 
 
